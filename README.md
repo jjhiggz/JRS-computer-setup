@@ -19,6 +19,16 @@ To do this we will follow the MANUAL instructions found [Here](https://docs.micr
 - Head to the Microsoft Store
 - Install Ubuntu
 
+
+## Set up Username and Password
+
+Ubuntu will prompt you to enter your username. Since Ubuntu WSL is literally just running a computer virtually inside of your computer, you will need a username and password just like you have one to get onto your regular computer.
+
+The very first thing that ubuntu does when you log in is ask you for your username. Just type one in and hit enter
+
+Then they will ask you for your password. Note: you will not see any letters on the terminal appearing. Don't worry, this is just ubuntu's way of making sure that nobody can see what you are typing. MAKE SURE THAT YOU REMEMBER THIS PASSWORD!!!!!!! DO NOT FORGET IT!!!!
+
+
 The default terminal for Ubuntu (GNOME Terminal) will work for this program. Make sure the following option is *checked*:
 
 ☰ -> Preferences -> Profiles -> Your Name -> Command -> Run command as a login shell
