@@ -8,6 +8,12 @@ Note: When you copy/paste a command from this page to your terminal, you *may ne
 
 Your terminal (which sometimes you'll hear referred to as a "shell" or "the command line" or a "CLI") will be your primary means of interacting with your computer in the program. This will take the place of navigating through file folders, downloading installers, and running programs by clicking on icons.
 
+## Enable WSL
+
+WSL stands for Windows Subsystem for linux. It is our way of running linux as a virtual machine inside of Windows. The very first thing that we have to do is enable this. In order to do so first we type in. 
+
+To do this we will follow the MANUAL instructions found [Here](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
 ## Install Ubuntu
 
 - Head to the Microsoft Store
