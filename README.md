@@ -118,13 +118,36 @@ prints something to the screen, you're probably in good shape!
 
 You'll spend most of your time in the program in your text editor. If you already have a preference, keep using it! Switching text editors, even with the same file, is not a big deal. If you're looking for a suggestion, VS Code is a good place to start.
 
+### Download from Link
+
 Download and install [VS Code](https://code.visualstudio.com/)
+
+
+### Set Up Plugins
+
+Go to the extension store and download the following plugins
+
+- WSL (Made by Microsoft)
+- Better Comments
+- Wakatime
+- Indent Rainbow
+
+### Restart Your UBUNTU TERMINAL and EXIT VSCODE
+
+After restarting, open up Ubuntu, and type in:
+
+```
+code .
+```
+
+this should open up visual studio, but using your linux OS Instead of windows
+
+If you can't get this step working, PLEASE REACH OUT TO AN INSTRUCTOR
 
 ## Set up NVM and Node to work every time
 
-### MacOS and Ubuntu
+You may have a problem with nvm when you restart your ubuntu terminal. If you do open up your zsh configuration file using the following command:
 
-Run:
 
 ```zsh
 code ~/.zshrc
@@ -138,32 +161,19 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 ```
-
-
 ## Set up your github account
 <!-- ! Insert Video Link Here -->
 
-
-<!-- Run the following commands:
-
-```bash
-sudo apt update
-sudo apt install software-properties-common apt-transport-https wget
-wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
-sudo apt update
-sudo apt install code
-``` -->
 
 ## Set up git
 <!-- ! Insert Video Here -->
 
 Run these commands, **swapping** you `you@example.com` and `Your Name` for **your actual email and name**.
 
-    ```bash
-    git config --global user.email "you@example.com"
-    git config --global user.name "Your Name"
-    ```
+```bash
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
 
 Follow [these steps](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) to connect your computer to Github:
 
