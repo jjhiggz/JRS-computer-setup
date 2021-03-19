@@ -65,14 +65,6 @@ When it asks you if you want to switch your shell over to zsh, type "y" and hit 
 
 Then *close all open instances of your terminal*. When you reopen your terminal, your command prompt should have a colored `~` on it.
 
-## Refresh with all the packages you just installed
-
-The following command will make your Ubuntu terminal now have access to all of those things that you just installed.
-
-``` zsh 
-    source ~/.zshrc
-```
-
 ## Install `nvm` and Node
 
 nvm or "Node Version Manager" is a package that we install on our computers that allows us to select between different versions of node. Although you won't really need to understand what is going on here right now. If you are ever curious that is it's purpose.
