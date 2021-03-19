@@ -53,7 +53,17 @@ Run:
 sudo apt update
 sudo apt install git zsh gnupg sqlite postgresql postgresql-contrib
 ```
+## Set up zsh
 
+Run:
+
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+When it asks you if you want to switch your shell over to zsh, type "y" and hit enter.
+
+Then *close all open instances of your terminal*. When you reopen your terminal, your command prompt should have a colored `~` on it.
 
 ## Refresh with all the packages you just installed
 
@@ -112,18 +122,6 @@ which lite-server
 ```
 
 prints something to the screen, you're probably in good shape!
-## Set up zsh
-
-Run:
-
-```bash
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-When it asks you if you want to switch your shell over to zsh, type "y" and hit enter.
-
-Then *close all open instances of your terminal*. When you reopen your terminal, your command prompt should have a colored `~` on it.
-
 ## Set up your text editor
 
 You'll spend most of your time in the program in your text editor. If you already have a preference, keep using it! Switching text editors, even with the same file, is not a big deal. If you're looking for a suggestion, VS Code is a good place to start.
