@@ -129,7 +129,6 @@ Go to the extension store and download the following plugins
 
 - WSL (Made by Microsoft)
 - Better Comments
-- Wakatime
 - Indent Rainbow
 
 ### Restart Your UBUNTU TERMINAL and EXIT VSCODE
