@@ -33,7 +33,7 @@ The default terminal for Ubuntu (GNOME Terminal) will work for this program. Mak
 
 ☰ -> Preferences -> Profiles -> Your Name -> Command -> Run command as a login shell
 
-### Ubuntu
+### Ubuntuu
 
 You already have a package manager installed called `apt`! We can install many Ubuntu packages using a command like:
 
